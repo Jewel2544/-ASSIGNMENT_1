@@ -26,11 +26,12 @@
     background-color: #F7F6F2;
 }
 nav {
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .navigetion-ber {
     background-color: #FFFFFF;
+    align-items: center;
     
 
 
@@ -39,6 +40,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     margin: 0 120px;
 }
 .nav-ber ul {
@@ -53,12 +55,11 @@ nav {
 }
 .hero {
     background-image: url("../assets/hero-bg.png");
-    /* width: 100%; */
-    max-width: 1600px;
-    height: 674px;
     background-repeat: no-repeat;
+    background-position: center;
+    
     margin: 0 auto;
-    padding: 115px 120px 180px 120px;
+    padding: 70px 120px 134px 120px;
    
 }
 .hero-section {
@@ -137,4 +138,111 @@ h5 {
     gap: 5px;
     align-items: center;
     color: #FFFFFF;
+}
+.section-container {
+    margin: 40px auto;
+}
+.section-text {
+    margin-bottom: 44px;
+    margin-top: 10px auto;
+    text-align: center;
+}
+.section-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.section-text p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #001931;
+    line-height: 26px;
+    margin-bottom: 24px;
+    
+}
+.section-card {
+    height: 448px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    padding: 24px;
+
+}
+.card {
+    width: 310px;
+    height: 300px;
+    padding: 24px;
+    background-color: #b94141;
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow:0px 0px 8px 0px rgba(12, 12, 12, 0.5);
+    background: rgba(255, 255, 255, 1);
+}
+.section-card .card img {
+    background-color: #F95555;
+    
+}
+.img-shape {
+    background-color: #F95555;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 69px 131px 16px 131px;
+    
+}
+.knoweg-section {
+    padding: 120px;
+    margin: 0 auto;
+}
+.section-knoweg{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.section-list{
+    text-align: left;
+    margin-right: 10px;
+}
+.section-list h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-align: left;
+
+}
+.section-list p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 40px;
+
+}
+.list ul {
+    list-style: none;
+    text-align: left;
+}
+.list ul li{
+    
+    padding-left:20px;
+    position: relative;
+    margin-bottom: 16px;
+    
+}
+.list ul li::before {
+    content: url("/assets/CheckCircle.png");
+    color: green;
+    position: absolute;
+    left: 0;
 }
