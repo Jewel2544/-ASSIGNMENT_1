@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.btn {
+    padding:12px 16px 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.btn:hover{
+    background-color: #F7F6F2;
+}
+.btnr:hover {
+    background-color: #F7F6F2;
+}
+nav {
+    margin: 0 auto;
+}
+
+.navigetion-ber {
+    background-color: #FFFFFF;
+    
+
+
+}
+.navigetion-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 120px;
+}
+.nav-ber ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+
+}
+.nav-ber ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+.hero {
+    background-image: url("../assets/hero-bg.png");
+    /* width: 100%; */
+    max-width: 1600px;
+    height: 674px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 115px 120px 180px 120px;
+   
+}
+.hero-section {
+    text-align: center;
+    padding: 51px 295px 76px 295px;
+}
+.hero-section-2 {
+    display: flex;
+    
+}
+h5 {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px 8px 34px;
+    color: #469165;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.hero-text{
+    margin: 16px auto ;
+    margin-bottom: 0;
+}
+.hero-text h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    text-align: center;
+    color: #30B868;
+   
+}
+.hero-text .h1{
+    color: #FFFFFF;
+} 
+.hero-text-2{
+    margin: 0 auto;
+}
+.hero-text-2 p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: center;
+    margin: 6px auto;
+}
+.btn-grupe {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 16px;
+    
+
+}
+.btnr{
+     padding:12px 16px 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #469165;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.btne {
+    padding:12px 16px 12px 16px;
+    box-sizing: border-box ;
+    border: 1px solid rgba(255, 255, 255, 1);;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #FFFFFF;
+}
