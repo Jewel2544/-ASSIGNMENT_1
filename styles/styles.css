@@ -282,11 +282,14 @@ h5 {
     height: 506px;
     max-width: 1600px;
     padding: 2px 120px 120px 120px ; 
+    margin: 0 auto;
 }
 .section-challange{
-    height: 384px;
+    height: 380px;
+    max-width: 1360px;
+    margin: 0 auto;
     background-color: #F7F6F2;
-    padding: 80px 40px;
+    padding: 100px 60px;
     border-radius: 12px;
     text-align: center;   
 }
